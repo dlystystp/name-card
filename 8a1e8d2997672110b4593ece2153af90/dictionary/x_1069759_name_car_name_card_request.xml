@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="54ff0d6d97672110b4593ece2153af8f" label="Name Card Request" max_length="40" name="x_1069759_name_car_name_card_request" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Address" max_length="1000" name="address" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Email" max_length="100" name="email" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Name" max_length="100" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Phone Number" max_length="50" name="phone_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="State" max_length="100" name="state" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Surname" max_length="100" name="surname" type="string"/>
+    </element>
+</database>
